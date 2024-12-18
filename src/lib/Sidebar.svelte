@@ -14,7 +14,7 @@
 <!-- Sidebar -->
 <div class="flex w-full sm:basis-1/4 flex-col p-4 mx-4 my-0 sm:my-4 sm:items-start sm:justify-start">
   <div class="hidden text-2xl sm:block"><p>Hi, I'm</p></div>
-  <div class="text-wrap sm:text-nowrap text-2xl sm:text-4xl md:text-6xl"><b><a href="/">Farhan Sanukri!</a></b></div>
+  <div class="text-wrap font-bold sm:text-nowrap text-2xl sm:text-4xl md:text-6xl"><a href="/">Farhan Sanukri!</a></div>
 
 
   <div class="sm:my-4 sm:space-y-4">
@@ -26,7 +26,7 @@
   <!-- Navbar List -->
   <ul class="flex flex-row gap-x-4 sm:my-4 sm:flex-col sm:space-y-1">
     {#each links as link}
-      <li class="font-mono  text-xl hover:text-amber-200 hover:underline {$page.url.pathname === link.path ? `font-medium text-amber-200 underline decoration-2 font-semibold` : `font-medium`}">
+      <li class="font-mono text-xl hover:text-amber-200 hover:underline {$page.url.pathname === link.path ? `font-semibold text-amber-200 underline decoration-2` : `font-light`}">
         <a href="{link.path}">{link.name}/</a>
       </li>
     {/each}

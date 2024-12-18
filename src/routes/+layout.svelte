@@ -5,7 +5,7 @@
 </script>
 
 
-<div class="flex h-screen flex-col sm:flex-row bg-[#304FA5] text-[#EFF2FA]">
+<div class="font-ibm flex min-h-screen overflow-auto flex-col sm:flex-row bg-[#304FA5] text-[#EFF2FA]">
 	  <Sidebar />
 
 	<div class="mx-4 p-4 sm:pt-16">
