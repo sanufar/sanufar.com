@@ -1,3 +1,75 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: "IBM Plex Sans"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexSans-Regular.ttf") format("truetype"); /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Sans"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexSans-Bold.ttf") format("truetype"); /* Path to the font file */
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Sans"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexSans-SemiBold.ttf") format("truetype"); /* Path to the font file */
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Sans"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexSans-Medium.ttf") format("truetype"); /* Path to the font file */
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype"); /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexMono-ExtraLight.ttf") format("truetype"); /* Path to the font file */
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexMono-Light.ttf") format("truetype"); /* Path to the font file */
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexMono-Medium.ttf") format("truetype"); /* Path to the font file */
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono"; /* Name to use in your CSS */
+	src: url("/fonts/IBMPlexMono-SemiBold.ttf") format("truetype"); /* Path to the font file */
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "ITC Garamond"; /* Name to use in your CSS */
+	src: url("/fonts/ITCGaramondStd-LtCond.woff2") format("woff2"); /* Path to the font file */
+    font-weight: 400;
+    font-style: normal;
+
+}
