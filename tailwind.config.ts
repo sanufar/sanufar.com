@@ -8,7 +8,10 @@ export default {
   theme: {
 	fontFamily: {
 		ibm: ["IBM Plex Sans", "sans-serif"],
-		mono: ["IBM Plex Mono"]
+		mono: ["IBM Plex Mono"],
+		serif: ["ITC Garamond"],
+		sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+
 	},
   },
 
