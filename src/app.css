@@ -73,3 +73,9 @@
     font-style: normal;
 
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #304FA5; /* Matches your layout background */
+}
