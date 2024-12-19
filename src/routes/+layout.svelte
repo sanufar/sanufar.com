@@ -4,13 +4,12 @@
 	let { children } = $props();
 </script>
 
-
-<div class="flex min-h-screen  flex-col sm:flex-row bg-[#304FA5] text-[#EFF2FA]">
-	<div class=" sticky top-0">
-	  <Sidebar />
+<div class="flex min-h-screen flex-col sm:flex-row bg-[#304FA5] text-[#EFF2FA]">
+	<div class="sticky top-0 sm:h-auto sm:top-0 sm:self-start">
+		<Sidebar />
 	</div>
 
-	<div class="font-extralight overflow-auto mx-4 p-4 sm:pt-16">
-    <slot />
+	<div class="flex-1 font-extralight overflow-auto mx-4 p-4 sm:pt-16">
+		<slot />
 	</div>
 </div>
