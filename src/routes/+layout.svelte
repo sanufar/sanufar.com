@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex min-h-screen flex-col sm:flex-row bg-[#304FA5] text-[#EFF2FA]">
-	<div class="sticky top-0 sm:h-auto sm:top-0 sm:self-start">
+	<div class="sticky top-0 overflow-auto sm:h-auto sm:top-0 sm:self-start">
 		<Sidebar />
 	</div>
 

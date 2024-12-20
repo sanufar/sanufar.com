@@ -12,24 +12,28 @@
 </script>
 
 <!-- Sidebar -->
-<div class="flex-initial h-full w-full sm:w-64 flex-col px-8 py-4 sm:p-4 sm:mx-4 my-0 sm:my-4 sm:items-start sm:justify-start backdrop-blur-lg bg-[#304FA5]/70">
+<div class="flex-initial h-full w-full sm:w-72 flex-col px-8 py-4 sm:p-4 sm:mx-4 my-0 sm:my-4 sm:items-start sm:justify-start backdrop-blur-lg bg-[#304FA5]/70">
 <div>	
   <div class="hidden text-lg sm:block"><p>Hi, I'm</p></div>
-  <div class="text-wrap w-fit font-bold sm:text-nowrap text-xl sm:text-3xl md:text-4xl group"><a href="/">Farhan Sanukri</a> 
-
-		<img src="/headshot.png" class="hidden my-4 sm:group-hover:block rounded-full w-28 aspect-square">
-
-		<p class="hidden sm:block -mt-3 group-hover:hidden text-end text-[0.6875rem]">*hover me!</p>
+<div class="text-wrap w-fit font-bold sm:text-nowrap text-xl sm:text-3xl md:text-4xl group">
+  <a href="/" class="flex items-start">
+    Farhan Sanukri
+    <p class="text-[1.3rem] hidden sm:block mt-1 leading-none align-top text-amber-400">*</p>
+  </a>
+		<div class="flex items-center space-x-4">
+		<img src="/headshot.png" class="hidden mt-4 sm:group-hover:block rounded-full w-28 aspect-square">
+		<p class="hidden sm:group-hover:block text-xs">*hi! 👋</p>
+				</div>
 	</div>
 
 
-  <div class="sm:mb-2 -mt-2 sm:space-y-4">
-    <p class="hidden text-balance sm:block text-[0.9735rem] font-light">
-      I'm an undergrad at <b class="underline decoration-4 decoration-[#4B9CD3] font-bold">UNC Chapel Hill</b> pursuing a double major in <b class="font-semibold">Mathematics</b> and <b class="font-semibold">Computer Science.</b>
-    </p>
-  </div>
+<div class="sm:my-4 sm:pl-4 text-balance border-l-4">
+  <p class="hidden sm:block text-[0.9250rem] font-light">
+    I'm an undergrad at <b class="underline decoration-4 decoration-[#4B9CD3] font-bold">UNC Chapel Hill</b> pursuing a double major in <b class="font-semibold">Mathematics</b> and <b class="font-semibold">Computer Science.</b>
+  </p>
+</div>
 
-	<div class="sm:flex-row my-4 hidden sm:flex">
+<div class="sm:flex-row my-6 hidden sm:flex">
   <a href="mailto:farsan@unc.edu" target="_blank" rel="noopener noreferrer" aria-label="Email (opens in a new tab)" class="hover:bg-zinc-800/80 py-1 px-2 rounded-md bg-sky-200/30 font-semibold text-xs mr-2">EMAIL</a>
 
 
