@@ -13,6 +13,15 @@ export default {
 		sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
 
 	},
+	  keyframes: {
+        growShrink: {
+          '0%': { borderLeftWidth: '2px' }, // Start and end at 4px
+          '50%': { borderLeftWidth: '4px' },    // Peak at 12px
+        },
+      },
+      animation: {
+        growShrink: 'growShrink 2s infinite ease-in-out', // 2s loop, easing applied
+      },
   },
 
   plugins: []
